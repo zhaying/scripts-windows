@@ -8,7 +8,7 @@ D:
 # Move to the backup folder
 cd $backupPath
 
-#Check for the existance of full path with today's date
+#Check for the existance of the full backup path with today's date
 If (-NOT (Test-Path -Path $fullBackupPath) ) {
     
     # Create today's date directory.
